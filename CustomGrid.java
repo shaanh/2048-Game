@@ -1,4 +1,3 @@
-package edu.purdue.shoda.cs180lab11;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
