@@ -12,8 +12,6 @@ import android.widget.TextView;
 /**
  * CustomGrid class that takes care of handling the 4x4 main grid of the game
  *
- * @author Sahil Pujari (pujari@purdue.edu)
- * @author Tori Shurman (vshurman@purdue.edu)
  */
 class CustomGrid extends BaseAdapter {
 
