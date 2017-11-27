@@ -12,13 +12,6 @@ import android.widget.TextView;
 
 import java.util.Stack;
 
-/**
- * MainActivity class that serves the same purpose to an Android app as the heart does to humans
- * Basically, the most important class of the app
- *
- * @author Sahil Pujari (pujari@purdue.edu)
- * @author Tori Shurman (vshurman@purdue.edu)
- */
 public class MainActivity extends AppCompatActivity {
 
 
@@ -85,13 +78,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view - the UI of the app
      */
     public void upAction(View view) {
-        //TODO 1: Use the moveUp method of TwentyFortyEight to implement the logic to be performed
-        //TODO 2: Call the updateGrid method of CustomGrid and pass your TwentyFortyEight's board
-        //as parameter
-        //TODO 3: Use the scoreBox.setText() method to update the value of the score box based on
-        //the score from your TwentyFortyEight
-
-        //NOTE: You should pass the String value of score to setText. Eg. scoreBox.setText(String.valueOf(twentyFortyEighty.getScore()));
+       
         int[][] array = new int[4][4];
 
         while (twentyFortyEight.moveUp()) {
@@ -116,13 +103,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view - the UI of the app
      */
     public void downAction(View view) {
-        //TODO 1: Use the moveUp method of TwentyFortyEight to implement the logic to be performed
-        //TODO 2: Call the updateGrid method of CustomGrid and pass your TwentyFortyEight's board
-        //as parameter
-        //TODO 3: Use the scoreBox.setText() method to update the value of the score box based on
-        //the score from your TwentyFortyEight
-
-        //NOTE: You should pass the String value of score to setText. Eg. scoreBox.setText(String.valueOf(twentyFortyEighty.getScore()));
+        
         int[][] array = new int[4][4];
 
         while (twentyFortyEight.moveDown()) {
@@ -147,13 +128,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view - the UI of the app
      */
     public void leftAction(View view) {
-        //TODO 1: Use the moveUp method of TwentyFortyEight to implement the logic to be performed
-        //TODO 2: Call the updateGrid method of CustomGrid and pass your TwentyFortyEight's board
-        //as parameter
-        //TODO 3: Use the scoreBox.setText() method to update the value of the score box based on
-        //the score from your TwentyFortyEight
-
-        //NOTE: You should pass the String value of score to setText. Eg. scoreBox.setText(String.valueOf(twentyFortyEighty.getScore()));
+        
         int[][] array = new int[4][4];
 
         while (twentyFortyEight.moveLeft()) {
@@ -178,13 +153,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view - the UI of the app
      */
     public void rightAction(View view) {
-        //TODO 1: Use the moveUp method of TwentyFortyEight to implement the logic to be performed
-        //TODO 2: Call the updateGrid method of CustomGrid and pass your TwentyFortyEight's board
-        //as parameter
-        //TODO 3: Use the scoreBox.setText() method to update the value of the score box based on
-        //the score from your TwentyFortyEight
-
-        //NOTE: You should pass the String value of score to setText. Eg. scoreBox.setText(String.valueOf(twentyFortyEighty.getScore()));
+        
         int[][] array = new int[4][4];
 
         while (twentyFortyEight.moveRight()) {
