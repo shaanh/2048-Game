@@ -1,4 +1,3 @@
-package edu.purdue.shoda.cs180lab11;
 
 import java.util.Random;
 import java.util.Scanner;
